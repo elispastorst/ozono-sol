@@ -175,6 +175,14 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
+        
+        .qr-code-img {
+            max-width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
 
         /* --- SECCIÓN DE CONTACTO --- */
         #contacto .info-card {
@@ -307,59 +315,4 @@
                 <h2>Contáctanos Ahora</h2>
                 <p>Estamos listos para atenderte.</p>
                 
-                <div class="qr-code-container">
-                    <div class="qr-code">
-                        <p style="font-size: 12px; margin-top: 50px;">Espacio para tu<br>código QR</p>
-                    </div>
-                </div>
-
-                <div class="action-buttons">
-                    <a href="https://wa.me/573163209928" target="_blank" class="btn whatsapp">
-                        <i class="fab fa-whatsapp"></i> Chatear por WhatsApp
-                    </a>
-                    <a href="tel:+573163209928" class="btn call">
-                        <i class="fas fa-phone"></i> Llamar ahora
-                    </a>
-                    <a href="https://www.facebook.com/ozonosol/" target="_blank" class="btn facebook">
-                        <i class="fab fa-facebook"></i> Facebook
-                    </a>
-                    <a href="https://www.instagram.com/p/DNhJYdLRVz7/" target="_blank" class="btn instagram">
-                        <i class="fab fa-instagram"></i> Instagram
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="generador-ingresos">
-            <h2>Generador de Ingresos</h2>
-            <img src="https://res.cloudinary.com/dysydffc7/image/upload/v1755564408/P-6_w7edxu.png" alt="Generador de ingresos" class="section-image">
-            <div class="card-container">
-                <p>https://www.emprendeworld.com/websignup?ref=16951247</p>
-                <a href="https://www.emprendeworld.com/websignup?ref=16951247" target="_blank" class="btn whatsapp" style="background-color: white; color: var(--color-principal);">
-                    <i class="fas fa-arrow-right"></i> ¡Regístrate aquí!
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Ozono Sol. Todos los derechos reservados. | Emprende World</p>
-    </footer>
-
-    <script>
-        const menuToggle = document.getElementById('menu-toggle');
-        const navMenu = document.getElementById('nav-menu');
-        const navLinks = document.querySelectorAll('.nav-menu a');
-
-        menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
-            });
-        });
-    </script>
-</body>
-</html>
+                <div class="qr-code-container
